@@ -1,0 +1,263 @@
+@media screen and (max-width:1150px) {
+    .about_image {
+        width: 40%;
+    }
+
+    .about_content {
+        width: 500px;
+    }
+
+    .education_image {
+        width: 40%;
+    }
+
+    .education_content {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .about-wrapper {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .about_image {
+        width: 80%;
+    }
+
+    .about_content {
+        margin-top: 1rem;
+        width: 700px;
+        padding: 1rem;
+    }
+
+    .about_content h3 {
+        text-align: center;
+    }
+
+    .education-wrapper {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .education_image {
+        width: 80%;
+    }
+
+    .education_content {
+        margin-top: 1rem;
+        width: 700px;
+        padding: 1rem;
+    }
+
+    .education_content h3 {
+        text-align: center;
+    }
+
+    .skill_box .box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .diamond {
+        position: absolute;
+        z-index: -1;
+        transition: 0.3s;
+    }
+
+    .diamond:nth-child(1) {
+        width: 400px;
+        top: 30px;
+        left: -200px;
+        z-index: -1;
+    }
+
+    .diamond:nth-child(2) {
+        width: 100px;
+        right: 20px;
+        top: 100px;
+    }
+
+    .diamond:nth-child(3) {
+        width: 300px;
+        right: -150px;
+        top: 200px;
+    }
+
+    .diamond:nth-child(4) {
+        width: 100px;
+        right: 150px;
+        top: 40px;
+    }
+
+    nav .menu {
+        display: flex;
+    }
+
+    nav .logo {
+        font-size: 1.5rem;
+    }
+
+    .links {
+        width: 200px;
+        height: 100vh;
+        background-color: var(--black-color);
+        position: fixed;
+        top: 0%;
+        right: -100%;
+        transition: all 0.5s ease;
+        padding-top: 4rem;
+        z-index: 1;
+    }
+
+    .links.active {
+        right: 0;
+    }
+
+    .links .nav_links {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .education_image {
+        width: 100%;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+
+    .diamond_holder {
+        position: relative;
+    }
+
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .diamond_holder {
+        position: relative;
+    }
+
+    .diamond {
+        position: absolute;
+        z-index: -1;
+        transition: 0.3s;
+    }
+
+    .diamond:nth-child(1) {
+        width: 400px;
+        top: 30px;
+        left: -200px;
+        z-index: -1;
+    }
+
+    .diamond:nth-child(2) {
+        width: 100px;
+        right: 20px;
+        top: 100px;
+    }
+
+    .diamond:nth-child(3) {
+        width: 300px;
+        right: -150px;
+        top: 200px;
+    }
+
+    .diamond:nth-child(4) {
+        width: 100px;
+        right: 150px;
+        top: 40px;
+    }
+
+    .home-text .text-1 {
+        font-size: 27px;
+    }
+
+    .home-text .text-2 {
+        font-size: 50px;
+    }
+
+    .home-text .text-2 {
+        font-size: 27px;
+    }
+
+
+    .education_content strong {
+        font-size: 1.2rem;
+    }
+
+
+    .project_image {
+        width: 100%;
+    }
+
+    .project_content {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .content_text {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .proBtn {
+        margin: 1rem 0 0 0;
+    }
+
+    .contact_wrapper {
+        padding: 1rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .inpt-grp input {
+        padding: 10px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    .box_content {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .box_content {
+        padding: .5rem;
+    }
+
+    .box_content h3 {
+        font-size: 1rem;
+        margin-top: .5rem;
+    }
+
+    .box_content p {
+        font-size: .8rem;
+    }
+
+    .box_image {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box_image i {
+        font-size: 1.5rem;
+    }
+}
